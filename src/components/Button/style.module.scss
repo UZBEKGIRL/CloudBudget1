@@ -1,0 +1,13 @@
+.a{
+    padding: 12px 31px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: red;
+
+    &:hover{
+        background-color: #FFFFFF;
+        color: #ED4C5C;
+    }
+}
