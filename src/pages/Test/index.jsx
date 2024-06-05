@@ -8,7 +8,6 @@ function Test() {
         <div>
             <TypographyFun>Heading h1</TypographyFun>
 
-            <Navbar></Navbar>
         </div>
     )
 }
