@@ -10,6 +10,9 @@ nav{
         text-decoration: none;
         color: inherit;
     }
+    .btn{
+        background-color: blue;
+    }
     .logo{
         width: 160px;
         height: 29px;
@@ -53,6 +56,8 @@ nav{
 
         .burger{
             display: inline-block;
+            color: #FFFFFF;
+            font-size: 14px;
         }
 
         .ul2{
@@ -86,6 +91,8 @@ nav{
         }
         .X{
             display: inline-block;
+            color: #FFFFFF;
+            font-size: 14px;
         }
         .Y{
             display: none;

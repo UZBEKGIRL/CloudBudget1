@@ -33,7 +33,7 @@ function Navbar() {
                     console.log(class1);
                 }}
                 className={clsx(cn[class1])} 
-            >H</h1>
+            ><i class="fa-solid fa-bars"></i></h1>
             <h1 className={clsx(cn[class2])} 
                 onClick={ ()=>{
                     setClass1('burger');
@@ -41,7 +41,7 @@ function Navbar() {
                     setClass3("ul3");
                     console.log(class2);
                 }}
-            >X</h1>
+            ><i class="fa-solid fa-x"></i></h1>
 
             <ul className={clsx(cn[class3])}>
                  <div className={clsx(cn["logo"])}>
