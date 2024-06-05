@@ -1,3 +1,4 @@
+import Navbar from "../../components/Layout/components/Navbar";
 import TypographyFun from "../../components/Typography";
 
 

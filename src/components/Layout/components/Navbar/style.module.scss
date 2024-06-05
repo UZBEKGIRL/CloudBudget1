@@ -1,0 +1,119 @@
+
+nav{
+    width: 80%;
+    display: flex;
+    padding: 50px 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .btn{
+        background-color: blue;
+    }
+    .logo{
+        width: 160px;
+        height: 29px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .ul{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        list-style: none;
+        padding: 0;
+
+        li:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    .ul3, .burger, .X{
+        display: none;
+    }
+}
+
+@media(max-width: 900px){
+    nav{
+        width: 95%;
+    }
+}
+
+@media(max-width: 768px){
+    nav{
+        .ul{
+            display: none;
+        }
+        .btn{
+            display: none;
+        }
+
+        .burger{
+            display: inline-block;
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+
+        .ul2{
+            width: 50vw;
+            height: 100vh;
+            background-color: #ED4C5C;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            list-style: none;
+            gap: 20px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 105px 0px;
+            box-sizing: border-box;
+
+            li:hover{
+                transform: scale(1.1);
+            }
+            .logo{
+                margin-bottom: 100px;
+            }
+        }
+        .ul3{
+            display: none;
+        }
+        .delete{
+            display: none;
+        }
+        .X{
+            display: inline-block;
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+        .Y{
+            display: none;
+        }
+    }
+}
+@media(max-width: 450px){
+    nav{
+        .ul{
+            display: none;
+        }
+        .btn{
+            display: none;
+        }
+
+        .burger{
+            display: inline-block;
+        }
+
+        .ul2{
+            width: 80vw;
+        }
+    }
+}
