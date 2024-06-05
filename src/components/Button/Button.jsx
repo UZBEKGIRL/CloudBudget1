@@ -8,7 +8,7 @@ function Button(props) {
 
     return( 
         <> 
-            <a href={ href } className={clsx(cn['a'], cn['btn'])}>{ children }</a>
+            <a href={ href } className={clsx(cn['a'], ['btn'])}>{ children }</a>
         </>
     )
 }
