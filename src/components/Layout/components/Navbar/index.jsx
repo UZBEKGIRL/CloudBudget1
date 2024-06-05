@@ -24,7 +24,7 @@ function Navbar() {
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>КОНТАКТЫ</TypographyFun></a></li>
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>ВОЙТИ</TypographyFun></a></li>
             </ul>
-            <Button href='#' className = {clsx(cn['btn'])}><TypographyFun tag = 'p' classname = 'p14'>ВХОД</TypographyFun></Button> 
+            <Button href='#' className = {clsx(cn['btn'])}>ВХОД</Button> 
             <h1
                 onClick={ ()=>{
                     setClass1('delete');
@@ -53,7 +53,7 @@ function Navbar() {
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>ТЕХНОЛОГИЯ</TypographyFun></a></li>
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>КОНТАКТЫ</TypographyFun></a></li>
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>ВОЙТИ</TypographyFun></a></li>
-                <Button href='#'><TypographyFun tag = 'p' classname = 'p14'>ВХОД</TypographyFun></Button> 
+                <Button href='#'>ВХОД</Button> 
             </ul>
         </nav>
     )
