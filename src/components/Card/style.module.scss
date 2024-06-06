@@ -39,3 +39,20 @@
         }
     }
 }
+
+@media(max-width: 500px){
+
+    .card{
+        width: 280px;
+        img{
+            width: 278px;
+        }
+
+        .inner{
+            width: 250px;
+            padding: 20px 10px;
+            gap: 10px;
+            box-sizing: border-box;
+        }
+    }
+}
