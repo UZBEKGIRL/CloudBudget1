@@ -8,15 +8,11 @@ function Img(props) {
     const { img } = props;
 
     return (
-        <div style={{
+        <img src={ img } alt=""  style={{
             width: { width},
             height: { height},
             borderRadius: { radius }
-        }} className={clsx(cn["img"])}>
-            <img src={ img } alt=""  style={{
-            borderRadius: { radius }
-        }}/>
-        </div>
+        }} className={clsx(cn["img"])}/>
     )
 }
 
