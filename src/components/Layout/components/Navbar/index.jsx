@@ -46,7 +46,7 @@ function Navbar() {
             <ul className={clsx(cn[class3])}>
                  <div className={clsx(cn["logo"])}>
                     <img src="/src/assets/dashicons-cloud.png" alt="" />
-                    <TypographyFun tag = 'h1' classname = 'cardheader'>CLOUDBUDGET</TypographyFun>
+                    <TypographyFun tag = 'h1' classname = 'cardheaderw'>CLOUDBUDGET</TypographyFun>
                 </div>
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>ОБЗОР</TypographyFun></a></li>
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>ОСОБЕННОСТИ</TypographyFun></a></li>
