@@ -6,6 +6,7 @@ import TypographyFun from "../../components/Typography";
 import cn from "./style.module.scss";
 import Img from "../../components/Img/Img";
 import Card from "../../components/Card";
+import Input from "../../components/Input";
 
 function HomePage(props) {
     
@@ -61,6 +62,9 @@ function HomePage(props) {
                     <TypographyFun tag='p' classname='p'>Остались вопросы или опасения? Просто заполните форму ниже, и наша служба поддержки свяжется с вами в течение 24 часов.</TypographyFun>
                 </div>
                 <form action="">
+                    <Input type='text'>Имя</Input>
+                    <Input type='text'>Телефон</Input>
+                    <button type="submit">ОТПРАВИТЬ</button>
                 </form>
             </div>
         </Layout>

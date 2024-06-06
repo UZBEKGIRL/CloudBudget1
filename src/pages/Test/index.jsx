@@ -7,8 +7,6 @@ function Test() {
     
     return (
         <div>
-            <TypographyFun>Heading h1</TypographyFun>
-
             <HomePage></HomePage>
 
         </div>
