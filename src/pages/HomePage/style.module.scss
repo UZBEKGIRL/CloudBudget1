@@ -1,5 +1,48 @@
 
 
+
+.second{
+    width: 75%;
+    height: 500px;
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .inner{
+        width: 47%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .in1{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: start;
+            gap: 20px;
+            p{
+                text-align: justify;
+            }
+
+            a{
+                color: #ED4C5C;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.6px;
+                text-align: justify;      
+                text-decoration: none;     
+                &:hover{
+                    transform: scale(1.1);
+                }     
+            }
+        }
+    }
+
+}
 .texnologi{
     width: 100%;
     height: 500px;
@@ -21,6 +64,10 @@
 }
 
 @media (max-width: 1250px){
+
+    .second{
+        width: 90%;
+    }
     .texnologi{
         .in{
             width: 100%;
@@ -28,6 +75,15 @@
     }
 }
 @media (max-width: 1000px){
+    .second{
+        width: 98%;
+
+        .inner{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
     .texnologi{
         height: auto;
         .in{
@@ -37,7 +93,30 @@
         }
     }
 }
+
+@media (max-width: 900px){
+    .second{
+        width: 99%;
+
+        .inner{
+            h1{
+                font-size: 30px;
+            }
+        }
+
+        img{
+            display: none;
+        }
+    }
+}
 @media (max-width: 768px){
+
+    .second{
+        ._img_11cla_1{
+            display: none;
+            width: 100%;
+        }
+    }
     .texnologi{
         height: auto;
         .in{
