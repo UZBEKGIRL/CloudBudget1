@@ -14,9 +14,10 @@ nav{
         text-decoration: none;
         color: inherit;
     }
-    .btn{
-        background-color: blue;
+    button{
+        display: none;
     }
+    
     .logo{
         width: 160px;
         height: 29px;
@@ -52,6 +53,7 @@ nav{
 
 @media(max-width: 768px){
     nav{
+        width: 90%;
         .ul{
             display: none;
         }
@@ -62,11 +64,11 @@ nav{
         .burger{
             display: inline-block;
             color: #FFFFFF;
-            font-size: 14px;
+            font-size: 18px;
         }
 
         .ul2{
-            width: 50vw;
+            width: 70vw;
             height: 100vh;
             background-color: #ED4C5C;
             display: flex;
@@ -78,8 +80,11 @@ nav{
             position: fixed;
             left: 0;
             top: 0;
+            bottom: 0;
             padding: 105px 0px;
             box-sizing: border-box;
+            z-index: 2000;
+            margin: 0;
 
             li:hover{
                 transform: scale(1.1);
@@ -97,7 +102,7 @@ nav{
         .X{
             display: inline-block;
             color: #FFFFFF;
-            font-size: 14px;
+            font-size: 18px;
         }
         .Y{
             display: none;
