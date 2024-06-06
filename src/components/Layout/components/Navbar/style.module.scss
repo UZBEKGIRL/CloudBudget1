@@ -6,6 +6,9 @@ nav{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    top: 0;
+    left: 10%;
     a{
         text-decoration: none;
         color: inherit;
@@ -42,6 +45,7 @@ nav{
 @media(max-width: 900px){
     nav{
         width: 95%;
+        left: 2.5%;
     }
 }
 
