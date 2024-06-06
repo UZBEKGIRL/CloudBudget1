@@ -14,9 +14,10 @@ nav{
         text-decoration: none;
         color: inherit;
     }
-    .btn{
-        background-color: blue;
+    button{
+        display: none;
     }
+    
     .logo{
         width: 160px;
         height: 29px;
@@ -52,6 +53,7 @@ nav{
 
 @media(max-width: 768px){
     nav{
+        width: 90%;
         .ul{
             display: none;
         }

@@ -15,7 +15,7 @@ function Navbar() {
         <nav>
             <div className={clsx(cn["logo"])}>
                 <img src="/src/assets/dashicons-cloud.png" alt="" />
-                <TypographyFun tag = 'h1' classname = 'cardheader'>CLOUDBUDGET</TypographyFun>
+                <TypographyFun tag = 'h1' classname = 'cardheaderw'>CLOUDBUDGET</TypographyFun>
             </div>
             <ul className={clsx(cn['ul'])}>
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>ОБЗОР</TypographyFun></a></li>
@@ -53,7 +53,7 @@ function Navbar() {
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>ТЕХНОЛОГИЯ</TypographyFun></a></li>
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>КОНТАКТЫ</TypographyFun></a></li>
                 <li><a href="#"><TypographyFun tag = 'p' classname = 'p14'>ВОЙТИ</TypographyFun></a></li>
-                <Button href='#'>ВХОД</Button> 
+                <Button href='#' className={clsx(cn["l111"])}>ВХОД</Button> 
             </ul>
         </nav>
     )
