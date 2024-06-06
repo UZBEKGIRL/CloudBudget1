@@ -1,0 +1,19 @@
+.a{
+    padding: 12px 31px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #ED4C5C;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: center;
+    
+
+    &:hover{
+        background-color: #FFFFFF;
+        color: #ED4C5C;
+    }
+}
